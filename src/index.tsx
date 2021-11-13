@@ -1,12 +1,30 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Main from './Main'
 import reportWebVitals from './reportWebVitals';
+import { Routes, Route, BrowserRouter } from "react-router-dom"
+
+import Home from "./components/home";
+import Navbar from "./components/navbar";
+import Articles from './components/articles';
+import About from './components/about';
+
+function Main() {
+  return (
+    <div className="Main">
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/articles' element={<Articles />} />
+          <Route path='/about' element={<About />} />
+        </Routes>
+      </BrowserRouter>
+    </div>
+  );
+}
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Main />
-  </React.StrictMode>,
+    <Main />,
   document.getElementById('root')
 );
 
