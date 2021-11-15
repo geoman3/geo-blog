@@ -7,6 +7,7 @@ import Home from "./components/home";
 import Navbar from "./components/navbar";
 import Articles from './components/articles';
 import About from './components/about';
+import Footer from './components/footer';
 
 function Main() {
   return (
@@ -18,6 +19,7 @@ function Main() {
           <Route path='/articles' element={<Articles />} />
           <Route path='/about' element={<About />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </div>
   );
