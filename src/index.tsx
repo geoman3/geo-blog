@@ -5,9 +5,18 @@ import { Routes, Route, BrowserRouter } from "react-router-dom"
 
 import Home from "./components/home";
 import Navbar from "./components/navbar";
-import Articles from './components/articles';
+import Archive from './components/archive';
 import About from './components/about';
 import Footer from './components/footer';
+import Article from './components/article';
+
+function setDOMStyle() {
+  document.body.style.backgroundColor = "rgb(60,60,60)";
+  document.body.style.color = "white";
+  document.body.style.padding = "0";
+  document.body.style.margin = "0";
+  document.body.style.border = "0";
+};
 
 function Main() {
   return (
@@ -16,8 +25,9 @@ function Main() {
         <Navbar />
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/articles' element={<Articles />} />
+          <Route path='/archive' element={<Archive />} />
           <Route path='/about' element={<About />} />
+          <Route path='/article/:title' element={<Article />} />
         </Routes>
         <Footer />
       </BrowserRouter>
@@ -25,6 +35,7 @@ function Main() {
   );
 }
 
+setDOMStyle()
 ReactDOM.render(
     <Main />,
   document.getElementById('root')

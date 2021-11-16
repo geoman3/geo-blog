@@ -1,7 +1,7 @@
 {
     "articles": [
         {
-            "path": "./archive/articleFoo.md",
+            "path": "/articles/articleFoo.md",
             "author": "George",
             "timestamp": 129836,
             "title": "WOW WHat a great titel"
