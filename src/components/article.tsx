@@ -8,12 +8,14 @@ export default function Article() {
     const params = useParams()
     const [ articleContent, setArticleContent ] = useState("")
 
+    // Grab the content for the article as a markdown string
     useEffect(() => {
         fetch(articlesDir + params.title)
             .then((res) => res.text())
             .then(content => setArticleContent(content))
     }, [params])
 
+    // Pass that to ReactMarkdown which renders it as HTML / react component
     return (
         <ReactMarkdown children={articleContent}/>
     )

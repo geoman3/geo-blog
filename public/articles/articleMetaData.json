@@ -1,10 +1,16 @@
-{
-    "articles": [
+[
         {
-            "path": "/articles/articleFoo.md",
+            "filename": "articleFoo.md",
             "author": "George",
             "timestamp": 129836,
-            "title": "WOW WHat a great titel"
+            "title": "WOW WHat a great titel",
+            "preamble": "How can you start writing an article about anything when you do not have enough information about it? But fret not, this guide is here to help you understand what an article is and basically what it does.An article is a piece of writing usually intended for publication in a newspaper, magazine, or journal."
+        },
+        {
+            "filename": "baz.md",
+            "author": "George",
+            "timestamp": 9234723,
+            "title": "THE BAZ titile",
+            "preamble": "How can you start writing an article about anything when you do not have enough information about it? But fret not, this guide is here to help you understand what an article is and basically what it does.An article is a piece of writing usually intended for publication in a newspaper, magazine, or journal."
         }
-    ]
-}
+]
