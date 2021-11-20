@@ -20,17 +20,19 @@ function setDOMStyle() {
 
 function Main() {
   return (
-    <div className="Main">
-      <BrowserRouter>
-        <Navbar />
-        <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/archive' element={<Archive />} />
-          <Route path='/about' element={<About />} />
-          <Route path='/article/:title' element={<Article />} />
-        </Routes>
-        <Footer />
-      </BrowserRouter>
+    <div className="Main" style={{display: "flex", flexDirection: "column", justifyContent: "space-between"}}>
+      <div style={{minHeight: "85vh"}}>
+        <BrowserRouter>
+          <Navbar />
+          <Routes>
+            <Route path='/' element={<Home />} />
+            <Route path='/archive' element={<Archive />} />
+            <Route path='/about' element={<About />} />
+            <Route path='/article/:title' element={<Article />} />
+          </Routes>
+        </BrowserRouter>
+      </div>
+      <Footer />
     </div>
   );
 }

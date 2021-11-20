@@ -17,6 +17,8 @@ export default function Article() {
 
     // Pass that to ReactMarkdown which renders it as HTML / react component
     return (
-        <ReactMarkdown children={articleContent}/>
+        <div>
+            <ReactMarkdown children={articleContent}/>
+        </div>
     )
 };

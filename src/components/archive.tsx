@@ -21,7 +21,7 @@ export default function Archive() {
     return (
         <div className='archive'>
             <h1>Archive</h1>
-            <div>
+            <div style={{display: "flex", flexDirection: "column"}}>
                 {archiveList.map((articleMetadata) => {
                     return <Link to={"/article/" + articleMetadata.filename} style={{color: "white"}}>{articleMetadata.title}</Link>
                 })}

@@ -1,12 +1,8 @@
-const styling = {
-    backgroundColor: "darkGrey",
-    height: 20
-}
 
 export default function Footer() {
     return (
-        <div className='footer' style={styling}>
+        <footer className='footer' style={{backgroundColor: "darkGrey", width: "100%", height: "15vh", bottom: 0}}>
 
-        </div>
+        </footer>
     )
 }
