@@ -10,18 +10,12 @@ import About from './components/about';
 import Footer from './components/footer';
 import Article from './components/article';
 
-function setDOMStyle() {
-  document.body.style.backgroundColor = "rgb(60,60,60)";
-  document.body.style.color = "white";
-  document.body.style.padding = "0";
-  document.body.style.margin = "0";
-  document.body.style.border = "0";
-};
+import "./index.css"
 
 function Main() {
   return (
-    <div className="Main" style={{display: "flex", flexDirection: "column", justifyContent: "space-between"}}>
-      <div style={{minHeight: "85vh"}}>
+    <div className="Main">
+      <div className="Content">
         <BrowserRouter>
           <Navbar />
           <Routes>
@@ -37,7 +31,6 @@ function Main() {
   );
 }
 
-setDOMStyle()
 ReactDOM.render(
     <Main />,
   document.getElementById('root')

@@ -1,5 +1,7 @@
 import {  Link  } from "react-router-dom";
 
+import "./navbar.css"
+
 export default function Navbar() {
     let pages = [
         {
@@ -16,18 +18,18 @@ export default function Navbar() {
         }
     ]
     return (
-        <div style={{display: "flex", flexDirection: "row", justifyContent: "space-between"}}>
-            <div style={{display: "flex", flexDirection: "row", justifyContent: "flex-start"}}>
+        <div className="Navbar">
+            <div>
                 {pages.map((page) => {
                     return (
-                        <Link to={page.path} style={{flex: "0 0 auto", color: "white", margin: "0 1rem"}}>
+                        <Link to={page.path} className="SectionLink">
                             <h2>{page.page}</h2>
                         </Link>
                     )
                 })}
             </div>
-            <div style={{margin: "0 1rem"}}>
-                <h2>Geo</h2>
+            <div className="Geo">
+                <h2>GeoBlog</h2>
             </div>
         </div>
     )
