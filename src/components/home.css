@@ -27,8 +27,8 @@
     -webkit-box-orient: vertical;
 }
 
-.FeaturedItem:hover h2 {
+.FeaturedItem:hover {
     /* text-decoration: underline; */
-    color: rgb(50, 0, 116);;
     transition-duration: 0.05s;
+    box-shadow: 0 0 0.3rem 0.3 rem rgb(50, 0, 116);
 }
