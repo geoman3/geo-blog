@@ -12,8 +12,8 @@
     width: 15rem;
     min-width: 15rem;
     height: 15rem;
-    background-color: white;
-    color: black;
+    background-color: var(--card-color);
+    color: var(--dark-text1);
     margin: 1rem;
     padding: 1rem;
     border-radius: 10px;
@@ -30,5 +30,5 @@
 .FeaturedItem:hover {
     /* text-decoration: underline; */
     transition-duration: 0.05s;
-    box-shadow: 0 0 0.3rem 0.3 rem rgb(50, 0, 116);
+    box-shadow: 0 0 0.27rem 0.27rem var(--dark-color1);
 }

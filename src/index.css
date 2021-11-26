@@ -1,6 +1,21 @@
+:root {
+    --dark-background: rgb(37, 19, 19); /* was rgb(60, 60, 60) */
+    
+    --dark-color1: rgb(44, 44, 44); /* was rgb(50, 0, 116) */
+
+    --light-accent1: rgb(202, 169, 245); 
+
+    --light-text1: white;
+
+    --dark-text1: black;
+
+    --card-color: white;
+}
+
+
 body {
-    background-color: rgb(60, 60, 60);
-    color: white;
+    background-color: var(--dark-background);
+    color: var(--light-text1);
     padding: 0;
     margin: 0;
     border: 0;

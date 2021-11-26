@@ -1,0 +1,33 @@
+
+.archiveList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.archiveItem {
+    /* border-bottom: 0.2rem solid var(--light-text1); */
+    padding: 20px 0;
+}
+
+.archiveItem a {
+    display: flex;
+    flex-direction: row;
+    color: var(--light-text1);
+    text-decoration: none;
+}
+
+.archiveItem a:hover {
+    color: var(--light-accent1);
+}
+
+.archiveItem a p:nth-child(2) {
+    padding: 0 0.4rem;
+    opacity: 55%;
+}
+
+.archiveItem div {
+    background-color: var(--light-text1);
+    height: 0.2rem;
+    width: 30rem
+}

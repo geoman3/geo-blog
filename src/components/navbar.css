@@ -13,13 +13,13 @@
 
 .SectionLink {
     flex: 0 0 auto;
-    color: white;
+    color: var(--light-text1);
     margin: 0 1rem;
     text-decoration: none;
 }
 
 .SectionLink:hover {
-    color: rgb(202, 169, 245);
+    color: var(--light-accent1);
     transition-duration: 0.2s;
 }
 

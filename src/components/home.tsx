@@ -20,7 +20,7 @@ export default function Home() {
         <div className='Home'>
             <div className="Featured">
                 {
-                    archiveList.slice(0, 4).map((latestArticleMetadata) => {
+                    archiveList.slice(0, 4).map((latestArticleMetadata, idx) => {
                         return (
                             <Link className="FeaturedItem" to={"/article/" + latestArticleMetadata.filename}>
                                 <div>

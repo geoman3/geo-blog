@@ -1,5 +1,5 @@
 .Footer {
-    background-color: rgb(50, 0, 116);
+    background-color: var(--dark-color1);
     width: 100vw;
     height: 15vh;
     bottom: 0px;
