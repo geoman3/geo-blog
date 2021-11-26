@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/geo-blog/static/css/main.fd3ea211.chunk.css",
-    "main.js": "/geo-blog/static/js/main.4f5400b3.chunk.js",
-    "main.js.map": "/geo-blog/static/js/main.4f5400b3.chunk.js.map",
-    "runtime-main.js": "/geo-blog/static/js/runtime-main.09949afe.js",
-    "runtime-main.js.map": "/geo-blog/static/js/runtime-main.09949afe.js.map",
-    "static/js/2.f0d6b23e.chunk.js": "/geo-blog/static/js/2.f0d6b23e.chunk.js",
-    "static/js/2.f0d6b23e.chunk.js.map": "/geo-blog/static/js/2.f0d6b23e.chunk.js.map",
-    "static/js/3.4fdb92dc.chunk.js": "/geo-blog/static/js/3.4fdb92dc.chunk.js",
-    "static/js/3.4fdb92dc.chunk.js.map": "/geo-blog/static/js/3.4fdb92dc.chunk.js.map",
-    "index.html": "/geo-blog/index.html",
-    "static/css/main.fd3ea211.chunk.css.map": "/geo-blog/static/css/main.fd3ea211.chunk.css.map",
-    "static/js/2.f0d6b23e.chunk.js.LICENSE.txt": "/geo-blog/static/js/2.f0d6b23e.chunk.js.LICENSE.txt"
+    "main.css": "/static/css/main.fd3ea211.chunk.css",
+    "main.js": "/static/js/main.e3ca9420.chunk.js",
+    "main.js.map": "/static/js/main.e3ca9420.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.48a2046d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.48a2046d.js.map",
+    "static/js/2.f0d6b23e.chunk.js": "/static/js/2.f0d6b23e.chunk.js",
+    "static/js/2.f0d6b23e.chunk.js.map": "/static/js/2.f0d6b23e.chunk.js.map",
+    "static/js/3.4fdb92dc.chunk.js": "/static/js/3.4fdb92dc.chunk.js",
+    "static/js/3.4fdb92dc.chunk.js.map": "/static/js/3.4fdb92dc.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.fd3ea211.chunk.css.map": "/static/css/main.fd3ea211.chunk.css.map",
+    "static/js/2.f0d6b23e.chunk.js.LICENSE.txt": "/static/js/2.f0d6b23e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.09949afe.js",
+    "static/js/runtime-main.48a2046d.js",
     "static/js/2.f0d6b23e.chunk.js",
     "static/css/main.fd3ea211.chunk.css",
-    "static/js/main.4f5400b3.chunk.js"
+    "static/js/main.e3ca9420.chunk.js"
   ]
 }
