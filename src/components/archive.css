@@ -15,6 +15,7 @@
     flex-direction: row;
     color: var(--light-text1);
     text-decoration: none;
+    justify-content: space-between;
 }
 
 .archiveItem a:hover {
@@ -23,7 +24,7 @@
 
 .archiveItem a p:nth-child(2) {
     padding: 0 0.4rem;
-    opacity: 55%;
+    opacity: 0.55;
 }
 
 .archiveItem div {
