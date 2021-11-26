@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/geo-blog/static/css/main.dc197274.chunk.css",
+    "main.css": "/geo-blog/static/css/main.954f6d70.chunk.css",
     "main.js": "/geo-blog/static/js/main.4b4cf92b.chunk.js",
     "main.js.map": "/geo-blog/static/js/main.4b4cf92b.chunk.js.map",
     "runtime-main.js": "/geo-blog/static/js/runtime-main.8be737d9.js",
@@ -10,13 +10,13 @@
     "static/js/3.74b51f78.chunk.js": "/geo-blog/static/js/3.74b51f78.chunk.js",
     "static/js/3.74b51f78.chunk.js.map": "/geo-blog/static/js/3.74b51f78.chunk.js.map",
     "index.html": "/geo-blog/index.html",
-    "static/css/main.dc197274.chunk.css.map": "/geo-blog/static/css/main.dc197274.chunk.css.map",
+    "static/css/main.954f6d70.chunk.css.map": "/geo-blog/static/css/main.954f6d70.chunk.css.map",
     "static/js/2.46bc7c5e.chunk.js.LICENSE.txt": "/geo-blog/static/js/2.46bc7c5e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.8be737d9.js",
     "static/js/2.46bc7c5e.chunk.js",
-    "static/css/main.dc197274.chunk.css",
+    "static/css/main.954f6d70.chunk.css",
     "static/js/main.4b4cf92b.chunk.js"
   ]
 }
