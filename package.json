@@ -1,6 +1,6 @@
 {
-  "name": "tsx-geo-blog",
-  "homepage": "http://geoman3.github.io/tsx-geo-blog",
+  "name": "geo-blog",
+  "homepage": "http://geoman3.github.io/geo-blog",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -26,7 +26,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "tsx-geo-blog -d build"
+    "deploy": "geo-blog -d build"
   },
   "eslintConfig": {
     "extends": [
