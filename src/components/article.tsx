@@ -2,7 +2,7 @@ import ReactMarkdown from "react-markdown"
 import { useParams } from "react-router-dom"
 import { useEffect, useState } from "react"
 
-const articlesDir = process.env.PUBLIC_URL + "/articles/"
+const ARTICLES_DIR = process.env.PUBLIC_URL + "/articles/"
 
 export default function Article() {
     const params = useParams()
@@ -10,7 +10,7 @@ export default function Article() {
 
     // Grab the content for the article as a markdown string
     useEffect(() => {
-        fetch(articlesDir + params.title)
+        fetch(ARTICLES_DIR + params.title)
             .then((res) => res.text())
             .then(content => setArticleContent(content))
     }, [params])

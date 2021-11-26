@@ -1,6 +1,9 @@
 import { useEffect, useState } from "react"
 import { Link } from "react-router-dom"
 
+// This is a quick and dirty way to store all of our articles and associated metadata
+const DATABASE = process.env.PUBLIC_URL + "/articles/articleMetaData.json"
+
 export type articleMetaData = {
     filename: string,
     author: string,
@@ -13,7 +16,7 @@ export default function Archive() {
     const [ archiveList, setArchiveList ] = useState<articleMetaData[]>([])
 
     useEffect(() => {
-        fetch("/articles/articleMetaData.json")
+        fetch(DATABASE)
             .then(ret => ret.json())
             .then(obj => setArchiveList(obj))
     }, [])

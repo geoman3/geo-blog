@@ -4,11 +4,14 @@ import { articleMetaData } from "./archive"
 
 import "./home.css"
 
+// This is a quick and dirty way to store all of our articles and associated metadata
+const DATABASE = process.env.PUBLIC_URL + "/articles/articleMetaData.json"
+
 export default function Home() {
     const [ archiveList, setArchiveList ] = useState<articleMetaData[]>([])
 
     useEffect(() => {
-        fetch("/articles/articleMetaData.json")
+        fetch(DATABASE)
             .then(ret => ret.json())
             .then(obj => setArchiveList(obj))
     }, [])
