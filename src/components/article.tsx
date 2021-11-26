@@ -2,7 +2,7 @@ import ReactMarkdown from "react-markdown"
 import { useParams } from "react-router-dom"
 import { useEffect, useState } from "react"
 
-const articlesDir = "/articles/"
+const articlesDir = process.env.PUBLIC_URL + "/articles/"
 
 export default function Article() {
     const params = useParams()
