@@ -33,7 +33,7 @@ export default function Archive() {
                         <div className="archiveItem">
                             <Link to={"/article/" + articleMetadata.filename}>
                                 <p>{articleMetadata.title}</p>
-                                <p>- {articleDate.toISOString().split("T")[0]}</p>
+                                <p>{articleDate.toISOString().split("T")[0]}</p>
                             </Link>
                             <div></div>
                         </div>
