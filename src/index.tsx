@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals';
 import { Routes, Route, BrowserRouter } from "react-router-dom"
 
-import Home from "./components/home";
+import Home from "./pages/home";
 import Navbar from "./components/navbar";
-import Archive from './components/archive';
-import About from './components/about';
+import Archive from './pages/archive';
+import About from './pages/about';
 import Footer from './components/footer';
-import Article from './components/article';
+import Article from './pages/article';
 
 import "./index.css"
 

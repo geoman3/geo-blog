@@ -2,6 +2,8 @@ import ReactMarkdown from "react-markdown"
 import { useParams } from "react-router-dom"
 import { useEffect, useState } from "react"
 
+import "./article.css"
+
 const ARTICLES_DIR = process.env.PUBLIC_URL + "/articles/"
 
 export default function Article() {
@@ -17,8 +19,8 @@ export default function Article() {
 
     // Pass that to ReactMarkdown which renders it as HTML / react component
     return (
-        <div>
-            <ReactMarkdown children={articleContent}/>
+        <div className="Article">
+            <ReactMarkdown className="Markdown" children={articleContent}/>
         </div>
     )
 };

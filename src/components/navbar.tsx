@@ -6,15 +6,15 @@ export default function Navbar() {
     let pages = [
         {
             path: "/",
-            page: "Home"
+            page: "Ho"
         },
         {
             path: "/archive",
-            page: "Archive"
+            page: "Ar"
         },
         {
             path: "/about",
-            page: "About"
+            page: "Ab"
         }
     ]
     return (

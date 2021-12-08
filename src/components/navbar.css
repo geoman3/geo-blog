@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0 30vw;
+    padding: 0 30%;
 }
 
 .Navbar div {
