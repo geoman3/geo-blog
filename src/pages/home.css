@@ -32,5 +32,5 @@
 .FeaturedItem:hover {
     /* text-decoration: underline; */
     transition-duration: 0.05s;
-    border-radius: 30px;
+    transform: translate(0, -1rem);
 }
