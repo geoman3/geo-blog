@@ -25,7 +25,6 @@ export default function Archive() {
 
     return (
         <div className='archive'>
-            <h1>Archive</h1>
             <div className="archiveList">
                 {archiveList.map((articleMetadata) => {
                     let articleDate = new Date(articleMetadata.timestamp)
