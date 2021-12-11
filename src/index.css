@@ -1,11 +1,15 @@
 :root {
-    --dark-background: rgb(37, 19, 19); /* was rgb(60, 60, 60) */
+    --dark-background: rgb(20, 20, 20); /* was rgb(60, 60, 60) */
     
-    --dark-color1: rgb(44, 44, 44); /* was rgb(50, 0, 116) */
+    --dark-color1: rgb(10, 59, 87); /* was rgb(10, 80, 87) */
 
-    --light-accent1: rgb(238, 199, 127); 
+    --dark-color2: rgb(44, 44, 44);
 
-    --light-text1: white;
+    --light-accent1: rgb(36, 191, 251); /* was rgb(36, 191, 251) */
+
+    --light-text1: rgb(195, 195, 195);
+
+    --light-text2: white;
 
     --dark-text1: black;
 

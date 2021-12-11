@@ -9,6 +9,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-content: center;
 }
 
 .FeaturedItem {
@@ -31,6 +32,6 @@
 
 .FeaturedItem:hover {
     /* text-decoration: underline; */
-    transition-duration: 0.05s;
-    transform: translate(0, -1rem);
+    transition-duration: 0.3s;
+    transform: scale(1.05);
 }

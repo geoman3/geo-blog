@@ -10,3 +10,10 @@
     align-content: center;
     flex-direction: column;
 }
+.Markdown h1 {
+    color: var(--light-text2);
+}
+
+img {
+    width: 100%;
+}
