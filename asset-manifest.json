@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/geo-blog/static/css/main.4f9dfaba.chunk.css",
-    "main.js": "/geo-blog/static/js/main.93dba569.chunk.js",
-    "main.js.map": "/geo-blog/static/js/main.93dba569.chunk.js.map",
+    "main.css": "/geo-blog/static/css/main.616d1e7f.chunk.css",
+    "main.js": "/geo-blog/static/js/main.6c825f0d.chunk.js",
+    "main.js.map": "/geo-blog/static/js/main.6c825f0d.chunk.js.map",
     "runtime-main.js": "/geo-blog/static/js/runtime-main.2d0e2aa0.js",
     "runtime-main.js.map": "/geo-blog/static/js/runtime-main.2d0e2aa0.js.map",
-    "static/js/2.1f620441.chunk.js": "/geo-blog/static/js/2.1f620441.chunk.js",
-    "static/js/2.1f620441.chunk.js.map": "/geo-blog/static/js/2.1f620441.chunk.js.map",
+    "static/js/2.70403cf3.chunk.js": "/geo-blog/static/js/2.70403cf3.chunk.js",
+    "static/js/2.70403cf3.chunk.js.map": "/geo-blog/static/js/2.70403cf3.chunk.js.map",
     "static/js/3.d41c6467.chunk.js": "/geo-blog/static/js/3.d41c6467.chunk.js",
     "static/js/3.d41c6467.chunk.js.map": "/geo-blog/static/js/3.d41c6467.chunk.js.map",
     "index.html": "/geo-blog/index.html",
-    "static/css/main.4f9dfaba.chunk.css.map": "/geo-blog/static/css/main.4f9dfaba.chunk.css.map",
-    "static/js/2.1f620441.chunk.js.LICENSE.txt": "/geo-blog/static/js/2.1f620441.chunk.js.LICENSE.txt"
+    "static/css/main.616d1e7f.chunk.css.map": "/geo-blog/static/css/main.616d1e7f.chunk.css.map",
+    "static/js/2.70403cf3.chunk.js.LICENSE.txt": "/geo-blog/static/js/2.70403cf3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.2d0e2aa0.js",
-    "static/js/2.1f620441.chunk.js",
-    "static/css/main.4f9dfaba.chunk.css",
-    "static/js/main.93dba569.chunk.js"
+    "static/js/2.70403cf3.chunk.js",
+    "static/css/main.616d1e7f.chunk.css",
+    "static/js/main.6c825f0d.chunk.js"
   ]
 }
