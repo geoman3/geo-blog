@@ -11,19 +11,18 @@ import Footer from './components/footer';
 import Article from './pages/article';
 
 import "./index.css"
-
+// basename={process.env.PUBLIC_URL} use this in normal BrowserRouter
 function Main() {
   return (
     <div className="Main">
       <div className="Content">
-        <HashRouter basename={process.env.PUBLIC_URL}>
+        <HashRouter >
           <Navbar />
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/archive' element={<Archive />} />
             <Route path='/about' element={<About />} />
             <Route path='/article/:title' element={<Article />} />
-            <Route path='/*' element={<Home />} />
           </Routes>
         </HashRouter>
       </div>

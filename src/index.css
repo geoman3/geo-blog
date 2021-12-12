@@ -29,7 +29,5 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
-.Content {
-    min-height: 85vh;
+    min-height: 100vh;
 }
