@@ -23,6 +23,7 @@ function Main() {
             <Route path='/archive' element={<Archive />} />
             <Route path='/about' element={<About />} />
             <Route path='/article/:title' element={<Article />} />
+            <Route path='/*' element={<Home />} />
           </Routes>
         </BrowserRouter>
       </div>
