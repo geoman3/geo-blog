@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals';
-import { Routes, Route, BrowserRouter } from "react-router-dom"
+import { Routes, Route, HashRouter } from "react-router-dom"
 
 import Home from "./pages/home";
 import Navbar from "./components/navbar";
@@ -16,7 +16,7 @@ function Main() {
   return (
     <div className="Main">
       <div className="Content">
-        <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <HashRouter basename={process.env.PUBLIC_URL}>
           <Navbar />
           <Routes>
             <Route path='/' element={<Home />} />
@@ -25,7 +25,7 @@ function Main() {
             <Route path='/article/:title' element={<Article />} />
             <Route path='/*' element={<Home />} />
           </Routes>
-        </BrowserRouter>
+        </HashRouter>
       </div>
       <Footer />
     </div>
